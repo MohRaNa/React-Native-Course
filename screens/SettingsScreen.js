@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const StackScreen = () => {
+const SettingsScreen = () => {
   return (
     <View>
       <Text
@@ -11,10 +11,10 @@ const StackScreen = () => {
           marginTop: "20%",
         }}
       >
-        StackScreen
+        SettingsScreen
       </Text>
     </View>
   );
 };
 
-export default StackScreen;
+export default SettingsScreen;
